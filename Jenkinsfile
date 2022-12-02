@@ -8,12 +8,7 @@ pipline {
 
             steps {
                 
-            }
-        }
-
-        stage("deploy") {
-
-            steps {
+                sh 'npm install'
                 
             }
         }
